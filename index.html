@@ -6,62 +6,30 @@
 <title>NEXT STAGE LAB｜次世代ラボ</title>
 <meta name="description" content="NEXT STAGE LAB（次世代ラボ）は、興味を持ったことを実際に試し、学びや気づきを記録・発信する個人メディアです。">
 <style>
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;background:#030712;color:#fff;line-height:1.8}
-.wrap{max-width:960px;margin:auto;padding:28px 22px}
-.hero{min-height:88vh;display:flex;flex-direction:column;justify-content:center;text-align:center}
-.mark{font-size:58px;font-weight:900;color:#60a5fa;text-shadow:0 0 32px rgba(59,130,246,.9);letter-spacing:.08em}
-.brand{letter-spacing:.28em;color:#bfdbfe;font-weight:800;margin-top:18px}
-h1{font-size:54px;margin:18px 0;color:#60a5fa;text-shadow:0 0 38px rgba(59,130,246,.8)}
-.lead{font-size:24px;font-weight:800;color:#f8fafc}
-.sub{color:#cbd5e1;font-size:17px;margin-top:22px}
-.btn{display:inline-block;margin-top:34px;padding:15px 34px;background:#3b82f6;color:#fff;border-radius:999px;text-decoration:none;font-weight:800;box-shadow:0 0 28px rgba(59,130,246,.55)}
-.card{background:rgba(255,255,255,.06);border:1px solid rgba(147,197,253,.18);border-radius:24px;padding:30px;margin:28px 0;box-shadow:0 0 32px rgba(15,23,42,.45)}
-h2{color:#93c5fd;font-size:30px}
-a{color:#93c5fd}
-ul{padding-left:22px}
-footer{text-align:center;color:rgba(255,255,255,.45);padding:48px 0}
+:root{--bg:#030712;--panel:rgba(9,18,35,.86);--line:rgba(96,165,250,.28);--blue:#3b82f6;--text:#f8fafc;--muted:#cbd5e1}
+*{box-sizing:border-box}body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",sans-serif;background:var(--bg);color:var(--text);line-height:1.8}a{color:#93c5fd}.hero{min-height:92vh;background:linear-gradient(to bottom,rgba(3,7,18,.15),rgba(3,7,18,.92)),url('hero.png') center/cover no-repeat;display:flex;align-items:flex-end;justify-content:center;text-align:center;padding:34vh 22px 72px}.hero-inner{max-width:920px}.hero h1{font-size:clamp(48px,13vw,112px);line-height:1.05;margin:0;color:#7db7ff;text-shadow:0 0 38px rgba(59,130,246,.9);font-weight:900}.brand{letter-spacing:.28em;color:#dbeafe;font-weight:800;margin-bottom:18px}.lead{font-size:clamp(25px,7vw,54px);font-weight:900;margin:34px 0 18px}.sub{font-size:clamp(16px,4vw,22px);color:var(--muted);font-weight:700}.btn{display:inline-block;margin-top:34px;padding:15px 36px;border-radius:999px;background:linear-gradient(135deg,#2563eb,#60a5fa);color:#fff;text-decoration:none;font-weight:900;box-shadow:0 0 32px rgba(59,130,246,.55)}.wrap{max-width:1080px;margin:auto;padding:34px 22px 70px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:var(--panel);border:1px solid var(--line);border-radius:24px;padding:28px;margin:22px 0;box-shadow:0 0 30px rgba(15,23,42,.55)}h2{color:#93c5fd;font-size:30px;margin:0 0 16px}.card h3{font-size:23px;margin:0 0 6px;color:#fff}.muted{color:var(--muted)}ul{padding-left:22px}.profile{display:flex;gap:22px;align-items:center}.avatar{width:92px;height:92px;border-radius:50%;background:radial-gradient(circle at 30% 20%,#60a5fa,#0f172a);box-shadow:0 0 28px rgba(59,130,246,.55);flex:0 0 auto}footer{text-align:center;color:rgba(255,255,255,.45);padding:34px 0}@media(max-width:760px){.hero{min-height:88vh;padding:30vh 18px 60px}.grid{grid-template-columns:1fr}.profile{display:block}.avatar{margin-bottom:18px}.card{padding:24px}}
 </style>
 </head>
-
 <body>
-<div class="wrap">
-
 <section class="hero">
-  <div class="mark">NS</div>
-  <div class="brand">NEXT STAGE LAB</div>
-  <h1>次世代ラボ</h1>
-  <p class="lead">学びを実践へ。<br>実践を未来へ。</p>
-  <p class="sub">興味を持ったら、まずやってみる。<br>試して、学んで、伝える。</p>
-  <a class="btn" href="about.html">次世代ラボについて</a>
+  <div class="hero-inner">
+    <div class="brand">NEXT STAGE LAB</div>
+    <h1>次世代ラボ</h1>
+    <p class="lead">学びを実践へ。<br>実践を未来へ。</p>
+    <p class="sub">興味を持ったら、まずやってみる。<br>試して、学んで、伝える。</p>
+    <a class="btn" href="about.html">次世代ラボについて</a>
+  </div>
 </section>
-
-<section class="card">
-  <h2>最新記事</h2>
-  <p>最初の記事を準備中です。</p>
-</section>
-
-<section class="card">
-  <h2>カテゴリー</h2>
-  <ul>
-    <li>AI・ChatGPT</li>
-    <li>Web3・テクノロジー</li>
-    <li>健康・ライフスタイル</li>
-    <li>アニメ・エンターテインメント</li>
-    <li>ガジェット・レビュー</li>
-  </ul>
-</section>
-
-<section class="card">
-  <h2>運営者</h2>
-  <p><strong>小野兼司</strong></p>
-  <p>東京・品川を拠点に、興味を持ったことを実際に試し、その経験や気づきを記録・発信しています。</p>
-  <p><a href="profile.html">プロフィールを見る</a></p>
-</section>
-
-<footer>
-  <p>© 2026 NEXT STAGE LAB / 次世代ラボ</p>
-</footer>
-
-</div>
+<main class="wrap">
+  <section class="grid">
+    <div class="card"><h3>挑戦する</h3><p class="muted">新しい技術やアイデアに興味を持ち、まず試してみる。</p></div>
+    <div class="card"><h3>学ぶ</h3><p class="muted">実践の中で得た気づきを、自分の知識にする。</p></div>
+    <div class="card"><h3>伝える</h3><p class="muted">経験やノウハウを言語化し、価値として発信する。</p></div>
+  </section>
+  <section class="card"><h2>最新記事</h2><p>最初の記事を準備中です。</p></section>
+  <section class="card"><h2>カテゴリー</h2><ul><li>AI・ChatGPT</li><li>Web3・テクノロジー</li><li>健康・ライフスタイル</li><li>アニメ・エンターテインメント</li><li>ガジェット・レビュー</li></ul></section>
+  <section class="card profile"><div class="avatar"></div><div><h2>運営者</h2><p><strong>小野兼司</strong></p><p>東京・品川を拠点に、興味を持ったことを実際に試し、その経験や気づきを記録・発信しています。</p><p><a href="profile.html">プロフィールを見る</a></p></div></section>
+</main>
+<footer>© 2026 NEXT STAGE LAB / 次世代ラボ</footer>
 </body>
 </html>
